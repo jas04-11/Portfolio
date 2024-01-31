@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+
+<div class="w3-top">
+  <div class="container">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">Portfolio</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love coding.</em></p>
+  <p>Motivated BCA-2nd year student with a strong foundation in programming languages, including C, C++ & Java. Along with that I have knowledge of Front-End-development. I am passionate about technology and always eager to learn about and adapt to new challenges. Through my coursework and personal projects, I have gained practical experience in coding and development.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>JASLEEN KAUR</b></p><br>
+      <img src="jas.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off jasImg" alt="Photo of Me" width="500" height="200">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large"><h3>Qualifications</h3>
+      <ul>
+        <li>BCA from SGTB Khalsa College Sri Anandpur Sahib, Punjab (2022-2025). Passed first year with 9.2 Gpa.
+<br><br>
+<li>12th from Govt Senior Secondary School, Ghanauli (Rupnagar) in PSEB Mohali (Punjab), with 95%<br><br>
+<li>10th from S.B.S.M.Public School, Singhpura (Thali khurd) (Rupnagar) in PSEB Mohali (Punjab), with A+ Grade.<br>
+</ul>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Front-end-development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%"></div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Programming</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%"></div>
+  </div>
+  </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">HTML, CSS</span><br>
+  
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">JavaScript</span><br>
+  
+  </div>
+  
+
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">React Js</span><br>
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">C++, Java</span><br>
+
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Data Structures </span><br>
+    & Algorithms
+  
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Database Mgt. system using </span><br>
+    Sql, MySql
+    
+  
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">MS-Office</span><br>
+    (WORD, POWERPOINT, EXCEL)
+  </div>
+  
+
+  
+
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY PROJECTS</h3>
+  <p class="w3-center"><em>Here are some of my project works.<br> Click on the images to view my projects.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+
+    
+    <div class="w3-col m3"><a href="https://jas04-11.github.io/Currency-Converter/">
+      <img src="curr.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity pic" alt="Currency-Converter"></a>
+    </div>
+
+    <div class="w3-col m3"><a href="https://jas04-11.github.io/Calculator/">
+      <img src="cal.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity pic" alt="Calculator">
+    </a>
+    </div>
+
+    <div class="w3-col m3"><a href="https://jas04-11.github.io/Sky-Scanner/">
+      <img src="Sky-Scanner.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity pic" alt="Sky-Scanner">
+    </a>
+    </div>
+    <div class="w3-col m3"><a href="https://quick-post.netlify.app/">
+      <img src="quickPost.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity pic" alt="quick-post"></a>
+    </div>
+
+
+
+    
+    
+
+      </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">________________________________________</h3>
+  <p class="w3-center"><em></em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="img.png" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Ghanauli, Rupnagar, Punjab<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 9517721866<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jas034192@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form >
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" name="name"/>
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" name="email"/>
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" name="message"/>
+        <button class="w3-button w3-black w3-right w3-section" type="submit" value="visit"/>
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section"><a href="https://github.com/jas04-11">
+    <i class="fa fa-github w3-hover-opacity"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/jasleen-kaur-244015266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+  </div>
+  </footer>
+ 
+<script src="index.js">
+</body>
+</html>
